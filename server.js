@@ -23,6 +23,10 @@ app.get('/', (req, res) => {
     res.render('index');
 })
 
+app.get('/cart', (req, res) => {
+    res.render('cart');
+})
+
 app.listen(process.env.PORT, function() {
     console.log(`The server is on http://localhost:${process.env.PORT}`);
 })
