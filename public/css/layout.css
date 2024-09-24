@@ -3,3 +3,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+
+
+/* Header */
+
+.header_search input {
+    width: 400px;
+  }
